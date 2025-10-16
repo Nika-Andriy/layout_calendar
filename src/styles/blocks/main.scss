@@ -3,12 +3,13 @@
 
 .calendar {
   width: $calendar-size;
-  padding: $calendar-padding;
+  padding: 0 $calendar-padding;
 
   &__field {
     display: flex;
     flex-wrap: wrap;
     gap: $day-gap;
+    padding: 0 $calendar-padding;
   }
 
   &__day {
