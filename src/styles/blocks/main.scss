@@ -1,7 +1,9 @@
-@use '../base/variables';
+@import '../base/variables';
+@import '../base/reset';
 
 .calendar {
   width: $calendar-size;
+  padding: $calendar-padding;
 
   &__field {
     display: flex;
